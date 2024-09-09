@@ -40,6 +40,9 @@ body {
 .menu-link:active {
   color: #434455;
 }
+.page-address {
+  font-style: normal;
+}
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
@@ -115,6 +118,30 @@ body {
   color: #434455;
 }
 /* ======= /OUR TEAM STYLES =======*/
+
+/* ======= PORTFOLIO STYLES ======= */
+.main-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ======= /PORTFOLIO STYLES ======= */
+
 /* ======= FOOTER STYLES =======*/
 .page-footer {
   background-color: #2e2f42;
