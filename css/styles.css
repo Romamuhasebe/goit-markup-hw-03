@@ -39,6 +39,7 @@ body {
 .menu-link:hover,
 .menu-link:active,
 .menu-link:active {
+  background-color: #404bbf;
   color: #404bbf;
 }
 .page-address {
@@ -94,7 +95,7 @@ body {
 
 /* ======= OUR TEAM STYLES =======*/
 .page-team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .main-team {
   font-weight: 700;
@@ -102,6 +103,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-name {
   font-weight: 500;
@@ -109,6 +112,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .team-job {
   font-weight: 400;
