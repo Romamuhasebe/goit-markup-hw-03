@@ -38,7 +38,6 @@ body {
   color: #2e2f42;
 }
 .menu-link:hover,
-.menu-link:active,
 .menu-link:focus {
   background-color: #404bbf;
   color: #404bbf;
@@ -80,8 +79,7 @@ body {
 /* ======= OUR BENEFITS STYLES =======*/
 
 .local-item:hover,
-.local-item:focus,
-.local-item:active {
+.local-item:focus {
   background-color: #404bbf;
 }
 .local-item {
