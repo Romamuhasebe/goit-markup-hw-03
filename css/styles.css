@@ -40,8 +40,8 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   background-color: #404bbf;
-  color: #404bbf;
 }
+
 .page-address {
   font-style: normal;
 }
@@ -111,8 +111,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team-name,
-.team-job {
+.menu-team-item {
   background-color: #ffffff;
 }
 .team-name {
@@ -134,9 +133,7 @@ body {
 /* ======= /OUR TEAM STYLES =======*/
 
 /* ======= PORTFOLIO STYLES ======= */
-.page-portfolio {
-  background-color: #ffffff;
-}
+
 .main-portfolio {
   font-weight: 700;
   font-size: 36px;
