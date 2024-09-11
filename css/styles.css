@@ -136,6 +136,9 @@ body {
 /* ======= /OUR TEAM STYLES =======*/
 
 /* ======= PORTFOLIO STYLES ======= */
+.page-portfolio {
+  background-color: #ffffff;
+}
 .main-portfolio {
   font-weight: 700;
   font-size: 36px;
