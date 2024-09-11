@@ -39,7 +39,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 
 .page-address {
