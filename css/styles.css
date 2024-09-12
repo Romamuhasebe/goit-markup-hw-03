@@ -55,9 +55,14 @@ body {
 /* ======= /HEADER STYLES =======*/
 
 /* ======= HERO STYLES =======*/
-.button-hero {
+.page-hero {
+  background-color: #2e2f42;
+}
+.button-hero:hover,
+.button-hero:focus {
   background-color: #404bbf;
 }
+
 .top-hero {
   font-weight: 700;
   font-size: 56px;
@@ -78,10 +83,6 @@ body {
 
 /* ======= OUR BENEFITS STYLES =======*/
 
-.local-item:hover,
-.local-item:focus {
-  background-color: #404bbf;
-}
 .local-item {
   font-weight: 500;
   font-size: 20px;
