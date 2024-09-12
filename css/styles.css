@@ -38,7 +38,9 @@ body {
   color: #2e2f42;
 }
 .menu-link:hover,
-.menu-link:focus {
+.menu-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
