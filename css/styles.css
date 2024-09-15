@@ -24,6 +24,13 @@ body {
 /* ======= /COMMON STYLES =======*/
 
 /* ======= HEADER STYLES =======*/
+.container-header {
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .page-logo-first {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
