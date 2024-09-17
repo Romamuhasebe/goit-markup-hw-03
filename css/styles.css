@@ -52,6 +52,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.section-paddings {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 /* ======= /COMMON STYLES =======*/
 
 /* ======= HEADER STYLES =======*/
@@ -149,13 +153,20 @@ body {
 /* ======= /HERO STYLES =======*/
 
 /* ======= OUR BENEFITS STYLES =======*/
-
+.menu-benefits {
+  display: flex;
+  column-gap: 24px;
+}
+.menu-benefits-item {
+  width: calc((100% - 72px) / 4);
+}
 .local-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-benefits {
   font-weight: 400;
@@ -178,9 +189,20 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
 }
 .menu-team-item {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
+}
+.menu-team {
+  display: flex;
+  column-gap: 24px;
+}
+.img-team {
+  margin-bottom: 32px;
 }
 .team-name {
   font-weight: 500;
@@ -189,6 +211,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-job {
   font-weight: 400;
@@ -197,6 +220,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 32px;
 }
 /* ======= /OUR TEAM STYLES =======*/
 
