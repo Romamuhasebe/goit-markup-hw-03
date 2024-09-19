@@ -199,6 +199,10 @@ body {
 .page-team {
   background-color: #f4f4fd;
 }
+.text-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .main-team {
   font-weight: 700;
   font-size: 36px;
