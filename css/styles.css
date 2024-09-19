@@ -111,6 +111,8 @@ body {
 }
 
 .page-address {
+  display: flex;
+  align-items: center;
   font-style: normal;
   margin-left: auto;
 }
