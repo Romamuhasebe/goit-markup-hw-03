@@ -128,6 +128,8 @@ body {
 /* ======= HERO STYLES =======*/
 .page-hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -169,7 +171,7 @@ body {
 /* ======= OUR BENEFITS STYLES =======*/
 .menu-benefits {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .menu-benefits-item {
   width: calc((100% - 72px) / 4);
